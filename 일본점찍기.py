@@ -9,8 +9,8 @@ import base64
 app = Flask(__name__)
 
 # 일본의 Level 1(지방) 및 Level 2(도시) GeoJSON 파일 경로
-japan_level1_geojson_path = "C:/Users/a4651/Desktop/일본여행/japan-travel-/gadm41_JPN_1.json"  # 지방 경계
-japan_level2_geojson_path = "C:/Users/a4651/Desktop/일본여행/japan-travel-/gadm41_JPN_2.json"  # 도시 경계
+japan_level1_geojson_path = "japan-travel-\gadm41_JPN_1.json"  # 지방 경계
+japan_level2_geojson_path = "japan-travel-\gadm41_JPN_2.json"  # 도시 경계
 
 # GeoJSON 파일 불러오기
 japan_level1_gdf = gpd.read_file(japan_level1_geojson_path)
