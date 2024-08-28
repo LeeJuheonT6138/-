@@ -6,3 +6,4 @@ pyogrio
 pandas
 numpy
 uvicorn
+matplotlib
