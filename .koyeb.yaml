@@ -3,4 +3,4 @@ build:
   path: .  # 현재 폴더 (japan-travel-)를 빌드 경로로 설정
   builder: buildpack  # buildpack을 사용하여 빌드
 run:
-  command: python 일본점찍기.py  # 실행할 파일
+  command: python app.py  # 실행할 파일
